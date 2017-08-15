@@ -2,6 +2,6 @@ module World exposing (..)
 
 import Html exposing (..)
 
-world : String
+world : Html msg
 world =
-    "World!"
+    text "World!"

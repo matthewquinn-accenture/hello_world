@@ -2,6 +2,6 @@ module Hello exposing (..)
 
 import Html exposing (..)
 
-hello : String
+hello : Html msg
 hello =
-    "Hello "
+    text "Hello "

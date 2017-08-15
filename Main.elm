@@ -6,4 +6,6 @@ import World exposing (world)
 
 main : Html msg
 main =
-    Html.text (hello ++ world)
+    div []
+    [hello,
+    world]
