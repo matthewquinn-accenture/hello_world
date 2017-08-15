@@ -1,6 +1,7 @@
-module Name exposing (..)
+module Hello exposing (..)
 
 import Html exposing (..)
 
-main =
-    text "Hello World!"
+hello : String
+hello =
+    "Hello "
